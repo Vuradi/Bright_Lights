@@ -1,0 +1,700 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adust: 100%;
+  webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1920px;
+  height: 5289px;
+  padding: 0 405px;
+  background-color: #1c1b21;
+  color: white;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+/* Header */
+
+.header__img-title {
+  display: block;
+  position: absolute;
+  max-width: 1920px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  padding: 30px 95px;
+}
+
+.menu-container__logo {
+  width: 223px;
+  height: 60px;
+  margin-right: 65px;
+}
+
+.menu__list {
+  display: flex;
+  gap: 56px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.menu-item__link {
+  color: white;
+}
+
+.menu-item__link:visited {
+  color: white;
+}
+
+.menu-item__link:hover {
+  color: #7a66cc;
+}
+
+.header__new-music {
+  margin-top: 305px;
+  margin-bottom: 131px;
+}
+
+.new-music__title {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 46px;
+}
+
+.new-music__name {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 1pt;
+  font-style: oblique;
+  margin-bottom: 77px;
+}
+
+.new-music__duration {
+  width: 887px;
+  margin-left: 41px;
+  margin-top: 10px;
+}
+
+.new-music__time {
+  line-height: 23px;
+  margin-left: 22px;
+  font-weight: 500;
+}
+
+/* Main */
+
+/* news */
+
+.main__news {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 179px;
+}
+
+.news__article {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  background-color: #2f2b2b;
+  border-radius: 20px 0px;
+}
+
+.news__article_first {
+  background-image: url("../img/main/news/news1.png");
+}
+
+.news__article_second {
+  background-image: url("../img/main/news/news2.png");
+}
+
+.news__article_third {
+  background-image: url("../img/main/news/news3.png");
+}
+
+.news__back-title {
+  position: absolute;
+  bottom: 0;
+  width: 344px;
+  height: 90px;
+  background: rgba(122, 102, 204, 0.7);
+  border-radius: 20px 0px;
+}
+
+.news__title {
+  margin: 21px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 1;
+}
+
+/* about us */
+
+.main__about-us {
+  position: relative;
+  width: 1110px;
+  height: 594;
+  margin-bottom: 208px;
+}
+
+.about-us__equalizer {
+  margin-top: 21px;
+}
+
+.about-us__title {
+  display: inline-block;
+  width: 310px;
+  height: 72px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  margin-left: 25px;
+  margin-bottom: 60px;
+}
+
+.about-us__info {
+  width: 540px;
+  height: 312px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+  margin-bottom: 58px;
+}
+
+.about-us__photo-first {
+  position: absolute;
+  top: 126px;
+  right: 17px;
+  width: 350px;
+  height: 400px;
+  border-radius: 30px 0px;
+  background-color: #2f2b2b;
+  background-image: url("../img/main/aboutUs/girlOnCar.png");
+}
+
+.about-us__photo-second {
+  position: absolute;
+  top: 60px;
+  right: 95px;
+  width: 350px;
+  height: 400px;
+  border-radius: 30px 0px;
+  background-color: #2f2b2b;
+  background-image: url("../img/main/aboutUs/girlInHeadphones.png");
+}
+
+.about-us__hashtags {
+  display: flex;
+  width: 556px;
+  flex-wrap: wrap;
+}
+
+.about-us__rectangle {
+  width: 30px;
+  height: 30px;
+  background: #7a66cc;
+  border-radius: 10px 0px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.hashtags {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 33px;
+}
+
+.hashtags_first {
+  margin-right: 40px;
+}
+
+.hashtags_second {
+  margin-right: 36px;
+}
+
+.hashtags_third {
+  margin-right: 60px;
+}
+
+/* media */
+
+.main__media {
+  position: relative;
+  width: 1110px;
+  height: 483px;
+  margin-bottom: 94px;
+}
+
+.media__image {
+  position: absolute;
+  bottom: 86px;
+  right: 80px;
+  width: 370px;
+  height: 483px;
+  border-radius: 30px 0px;
+  background-color: #2f2b2b;
+  background-image: url("../img/main/media/girlOnMTV.png");
+}
+
+.media__container {
+  width: 1093px;
+  height: 313px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 30px 0px;
+}
+
+.media__container::after {
+  content: "";
+  background-image: url("../img/main/media/quote.svg");
+  position: absolute;
+  top: 53px;
+  left: 79px;
+  width: 103px;
+  height: 92px;
+}
+
+.media__text {
+  width: 520px;
+  height: 136px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 157px;
+}
+
+.media__website {
+  margin-left: 78px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #7a66cc;
+}
+
+/* music */
+
+.main_music {
+  position: relative;
+  width: 1110px;
+  height: 584px;
+  margin-bottom: 181px;
+}
+
+.music__tracks {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 540px;
+  height: 584px;
+}
+
+.music__equalizer {
+  width: 64px;
+  height: 31px;
+  margin-top: 22px;
+  margin-right: 26px;
+}
+
+.music__title {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  margin-right: 170px;
+  margin-bottom: 63px;
+}
+
+.tracks__play {
+  width: 25px;
+  height: 22px;
+}
+
+.music__duration {
+  width: 323px;
+  margin-top: 9px;
+  margin-left: 36px;
+  margin-right: 23px;
+  margin-bottom: 63px;
+}
+
+.music__time {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.tracks__list {
+  list-style-type: none;
+  counter-reset: num;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 21px;
+  margin-bottom: 33px;
+}
+
+.tracks__list li {
+  position: relative;
+  line-height: 27px;
+  padding-bottom: 20px;
+}
+
+.tracks__list li:before {
+  content: "0" counter(num);
+  counter-increment: num;
+  display: inline-block;
+  position: absolute;
+  font-size: 14px;
+  top: 0px;
+  left: -26px;
+  width: 20px;
+  color: #ffffff;
+  opacity: 0.5;
+  text-align: right;
+}
+
+.music__follow-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 375px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.follow-me__title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-right: 31px;
+}
+
+.follow-me__spotify {
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 21px;
+}
+
+.music__photo {
+  position: relative;
+  width: 510px;
+  height: 510px;
+}
+
+.photo__circle-first {
+  position: absolute;
+  top: 59px;
+  right: 23px;
+  width: 472.22px;
+  height: 472.22px;
+  background-color: rgba(122, 102, 204, 0.6);
+  border-radius: 50%;
+}
+
+.photo__circle-second {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 510px;
+  height: 510px;
+  background-color: rgba(122, 102, 204, 0.3);
+  border-radius: 50%;
+}
+
+.photo__girl {
+  position: absolute;
+  top: 38px;
+  right: 38px;
+  width: 434.44px;
+  height: 434.44px;
+  border-radius: 50%;
+  background-image: url("../img/main/music/girlDJ.png");
+  background-color: #2f2b2b;
+}
+
+/* gallery */
+
+.main__gallery {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 180px;
+}
+
+.gallery__img {
+  height: 100%;
+}
+
+.img_concert-LV {
+  position: absolute;
+  width: 540px;
+  height: 235px;
+  bottom: 0px;
+  right: 280px;
+}
+
+.gallery__title {
+  position: absolute;
+  bottom: 106px;
+  right: 383px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #7a66cc;
+}
+
+/* events */
+
+.main__events {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  width: 1100px;
+  height: 473px;
+}
+
+.main__events::after {
+  content: url("../img/main/tour/arrow.svg");
+  transform: rotate(0.5turn);
+  position: absolute;
+  top: 205px;
+  right: -89px;
+  width: 40px;
+  height: 60px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.main__events::before {
+  content: url("../img/main/tour/arrow.svg");
+  position: absolute;
+  top: 205px;
+  left: -80px;
+  width: 40px;
+  height: 60px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.events__form-event {
+  position: relative;
+  width: 350px;
+  height: 473px;
+  background: #2f2b2b;
+  border-radius: 30px 0px;
+}
+
+.event__city {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 35px;
+  margin-top: 29px;
+}
+
+.event__place {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 35px;
+  margin-top: 19px;
+}
+
+.event_date {
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 41px;
+  margin-top: 47px;
+}
+
+.event__form-ticket {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 180px;
+  height: 60px;
+  background: #7a66cc;
+  border-radius: 30px 0px;
+}
+
+.event_ticket {
+  display: block;
+  width: 66px;
+  height: 24px;
+  margin-top: 18px;
+  margin-left: 52px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+/* Footer */
+
+.page__footer {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  bottom: 40px;
+  width: 533px;
+  height: 414px;
+}
+
+.footer-container__logo {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 63px;
+}
+
+.footer__contacts-conteiner {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 59px;
+}
+
+.footer__contacts {
+  width: 199px;
+  height: 54px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.footer__name-email {
+  width: 304px;
+  height: 54px;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.footer__follow-me {
+  display: flex;
+  gap: 30px;
+  width: 510px;
+  height: 60px;
+  margin-left: 21px;
+}
+
+.follow-me__circle-first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: #2c2c2c;
+  border-radius: 50%;
+}
+
+.follow-me__circle-second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: #7a66cc;
+  border-radius: 50%;
+}
+
+.footer__copyright {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  text-transform: uppercase;
+}
