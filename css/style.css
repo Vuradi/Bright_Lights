@@ -89,6 +89,12 @@ body {
   overflow-x: hidden;
 }
 
+@media (max-width: 1919px) {
+  body{
+    padding: 0 21%;
+  }
+}
+
 /* Header */
 
 .header__img-title {
@@ -643,6 +649,13 @@ body {
   bottom: 40px;
   width: 533px;
   height: 414px;
+}
+
+@media (max-width: 1919px) {
+  .page__footer {
+    transform: translateX(50%);
+    right: auto;
+  }
 }
 
 .footer-container__logo {
