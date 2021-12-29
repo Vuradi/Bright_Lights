@@ -154,10 +154,16 @@ body {
   margin-bottom: 77px;
 }
 
+.new-music__player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
 .new-music__duration {
-  width: 887px;
+  width: 866px;
   margin-left: 41px;
-  margin-top: 10px;
 }
 
 .new-music__time {
