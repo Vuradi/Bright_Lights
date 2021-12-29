@@ -182,18 +182,22 @@ body {
   height: 300px;
   background-color: #2f2b2b;
   border-radius: 20px 0px;
+  overflow: hidden;
 }
 
 .news__article_first {
   background-image: url("../img/main/news/news1.png");
+  width: 344px;
 }
 
 .news__article_second {
   background-image: url("../img/main/news/news2.png");
+  width: 344px;
 }
 
 .news__article_third {
   background-image: url("../img/main/news/news3.png");
+  width: 344px;
 }
 
 .news__back-title {
