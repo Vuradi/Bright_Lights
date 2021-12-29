@@ -157,6 +157,7 @@ body {
 .new-music__player {
   display: flex;
   justify-content: space-between;
+  width: 1092px;
   align-items: center;
   flex-wrap: nowrap;
 }
@@ -179,6 +180,7 @@ body {
 .main__news {
   display: flex;
   gap: 30px;
+  width: 1110px;
   margin-bottom: 179px;
 }
 
